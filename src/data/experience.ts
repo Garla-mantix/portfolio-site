@@ -15,18 +15,6 @@ export const experience: Experience[] = [
   },
   {
     id: '2',
-    company: 'Svensk Arboristtjänst',
-    role: 'Climbing Arborist',
-    period: '2022 - 2024',
-    description: 'Professional tree care specialist handling risk assessments and technical climbing operations.',
-    highlights: [
-      'Performed risk assessments, climbing, pruning, and felling',
-      'Direct customer contact and consultation',
-      'Problem-solving in challenging outdoor environments',
-    ],
-  },
-  {
-    id: '3',
     company: 'Tidningsmakarna AB',
     role: 'Editor, Writer, Photographer',
     period: '2018 - 2021',

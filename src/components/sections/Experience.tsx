@@ -21,7 +21,7 @@ export function Experience() {
             Journey
           </h2>
           <p className="text-fog max-w-xl">
-            A timeline of my professional experience and growth.
+            A timeline of my coding journey so far.
           </p>
         </motion.div>
 

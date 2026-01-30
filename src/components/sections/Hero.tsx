@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 
 const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com/lumacone', icon: 'gh' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/lucapirro', icon: 'li' },
+  { name: 'GitHub', url: 'https://github.com/garla-mantix', icon: 'gh' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/luca-pirro-bb9709369/', icon: 'li' },
 ];
 
 export function Hero() {
@@ -61,8 +61,7 @@ export function Hero() {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
               Currently studying .NET Software Development at Newton Yrkeshögskola
-              and looking for internship (LIA) 2026. Passionate about open source,
-              DevOps, and building things that work.
+              and looking for internship (LIA) 2026.
             </motion.p>
 
             {/* Social links */}

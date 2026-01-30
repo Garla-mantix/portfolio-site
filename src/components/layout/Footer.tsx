@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 
 const links = [
-  { label: 'GitHub', url: 'https://github.com/lumacone' },
-  { label: 'LinkedIn', url: 'https://linkedin.com/in/lucapirro' },
+  { label: 'GitHub', url: 'https://github.com/garla-mantix' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/luca-pirro-bb9709369/' },
   { label: 'Email', url: 'mailto:luca.severino.pirro@gmail.com' },
 ];
 
@@ -57,9 +57,6 @@ export function Footer() {
           >
             <p className="label-mono text-ash">
               &copy; {currentYear} Luca Pirro
-            </p>
-            <p className="label-mono text-ash mt-1">
-              Built with precision
             </p>
           </motion.div>
         </div>

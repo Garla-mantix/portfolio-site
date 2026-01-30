@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  /* Darkroom palette - rich blacks with warm amber accent */
-  --color-void: #050505;
-  --color-ink: #0a0a0a;
-  --color-charcoal: #141414;
-  --color-graphite: #1f1f1f;
-  --color-slate: #2a2a2a;
-  --color-ash: #404040;
-  --color-smoke: #6b6b6b;
-  --color-fog: #a3a3a3;
-  --color-mist: #d4d4d4;
-  --color-bone: #f5f5f0;
+  /* Catppuccin Macchiato palette */
+  --color-void: #181926;      /* crust */
+  --color-ink: #1e2030;       /* mantle */
+  --color-charcoal: #24273a;  /* base */
+  --color-graphite: #363a4f;  /* surface0 */
+  --color-slate: #494d64;     /* surface1 */
+  --color-ash: #5b6078;       /* surface2 */
+  --color-smoke: #8087a2;     /* overlay1 */
+  --color-fog: #a5adcb;       /* subtext0 */
+  --color-mist: #b8c0e0;      /* subtext1 */
+  --color-bone: #cad3f5;      /* text */
 
-  /* Amber safelight accent */
-  --color-amber: #e07a2d;
-  --color-amber-dim: #c46a24;
-  --color-amber-glow: #f59e4a;
-  --color-amber-wash: rgba(224, 122, 45, 0.08);
+  /* Macchiato accent - blue */
+  --color-amber: #8aadf4;           /* blue */
+  --color-amber-dim: #7dc4e4;       /* sapphire */
+  --color-amber-glow: #b7bdf8;      /* lavender */
+  --color-amber-wash: rgba(138, 173, 244, 0.08);
 
   /* Typography */
   --font-display: 'Syne', sans-serif;

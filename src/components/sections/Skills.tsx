@@ -21,7 +21,7 @@ export function Skills() {
             Stack
           </h2>
           <p className="text-fog max-w-xl">
-            Technologies and tools I use to bring ideas to life.
+            Technologies and tools I use.
           </p>
         </motion.div>
 
