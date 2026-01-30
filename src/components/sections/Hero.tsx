@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
 
 const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'gh' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'li' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'x' },
+  { name: 'GitHub', url: 'https://github.com/lumacone', icon: 'gh' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/lucapirro', icon: 'li' },
 ];
 
 export function Hero() {
@@ -31,7 +30,7 @@ export function Hero() {
               className="flex items-center gap-4"
             >
               <span className="w-12 h-px bg-amber" />
-              <span className="label-mono text-amber">Software Engineer</span>
+              <span className="label-mono text-amber">Software Developer</span>
             </motion.div>
 
             {/* Main heading */}
@@ -42,7 +41,7 @@ export function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               >
-                Your Name
+                Luca Pirro
               </motion.h1>
               <motion.p
                 className="heading-display text-3xl sm:text-4xl lg:text-5xl text-smoke"
@@ -50,7 +49,7 @@ export function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               >
-                Building for the web.
+                .NET & Web Developer
               </motion.p>
             </div>
 
@@ -61,9 +60,9 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              Crafting exceptional digital experiences with meticulous attention
-              to detail. Currently focused on building accessible, human-centered
-              products that make a difference.
+              Currently studying .NET Software Development at Newton Yrkeshögskola
+              and looking for internship (LIA) 2026. Passionate about open source,
+              DevOps, and building things that work.
             </motion.p>
 
             {/* Social links */}
@@ -148,7 +147,7 @@ export function Hero() {
 
               {/* Film frame number */}
               <div className="absolute -bottom-10 right-0 label-mono text-slate">
-                001 / 2024
+                001 / 2025
               </div>
             </div>
           </motion.div>

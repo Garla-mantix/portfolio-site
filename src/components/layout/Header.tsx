@@ -36,7 +36,7 @@ export function Header() {
             whileTap={{ scale: 0.95 }}
           >
             <span className="heading-display text-2xl text-bone tracking-tight">
-              YN
+              LP
             </span>
             <motion.span
               className="absolute -bottom-1 left-0 h-0.5 bg-amber"
@@ -68,7 +68,7 @@ export function Header() {
 
           {/* Contact CTA */}
           <motion.a
-            href="mailto:hello@example.com"
+            href="mailto:luca.severino.pirro@gmail.com"
             className="label-mono px-5 py-2.5 border border-slate text-mist hover:border-amber hover:text-amber transition-all duration-300"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}

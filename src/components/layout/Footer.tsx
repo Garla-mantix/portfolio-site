@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
 
 const links = [
-  { label: 'GitHub', url: 'https://github.com' },
-  { label: 'LinkedIn', url: 'https://linkedin.com' },
-  { label: 'Twitter', url: 'https://twitter.com' },
-  { label: 'Email', url: 'mailto:hello@example.com' },
+  { label: 'GitHub', url: 'https://github.com/lumacone' },
+  { label: 'LinkedIn', url: 'https://linkedin.com/in/lucapirro' },
+  { label: 'Email', url: 'mailto:luca.severino.pirro@gmail.com' },
 ];
 
 export function Footer() {
@@ -20,10 +19,10 @@ export function Footer() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <span className="heading-display text-3xl text-bone">YN</span>
+            <span className="heading-display text-3xl text-bone">LP</span>
             <p className="text-smoke mt-4 text-sm leading-relaxed">
-              Software engineer crafting digital experiences with meticulous
-              attention to detail.
+              Software developer passionate about .NET, web development,
+              and open source.
             </p>
           </motion.div>
 
@@ -57,7 +56,7 @@ export function Footer() {
             className="md:text-right"
           >
             <p className="label-mono text-ash">
-              &copy; {currentYear} Your Name
+              &copy; {currentYear} Luca Pirro
             </p>
             <p className="label-mono text-ash mt-1">
               Built with precision
