@@ -11,6 +11,8 @@ export interface Project {
 export interface Skill {
   name: string;
   category: 'language' | 'framework' | 'tool' | 'database' | 'other';
+  color: string;
+  icon: React.ReactNode;
 }
 
 export interface Experience {
