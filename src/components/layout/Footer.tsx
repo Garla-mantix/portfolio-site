@@ -11,65 +11,59 @@ export function Footer() {
 
   return (
     <footer className="py-16 border-t border-slate">
-      <div className="section-container">
-        <div className="grid md:grid-cols-3 gap-12 items-end">
-          {/* Brand */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <span className="heading-display text-3xl text-bone">LP</span>
-            <p className="text-smoke mt-4 text-sm leading-relaxed">
-              Software developer passionate about .NET, web development,
-              and open source.
-            </p>
-          </motion.div>
-
-          {/* Links */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="flex flex-wrap gap-x-8 gap-y-2 md:justify-center"
-          >
-            {links.map((link) => (
-              <a
-                key={link.label}
-                href={link.url}
-                target={link.url.startsWith('http') ? '_blank' : undefined}
-                rel={link.url.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className="label-mono text-smoke hover:text-amber transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-          </motion.div>
-
-          {/* Copyright */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="md:text-right"
-          >
-            <p className="label-mono text-ash">
-              &copy; {currentYear} Luca Pirro
-            </p>
-          </motion.div>
-        </div>
-
-        {/* Decorative bottom element */}
+      <div className="grid md:grid-cols-3 gap-12 items-end">
+        {/* Brand */}
         <motion.div
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="mt-16 h-px bg-gradient-to-r from-transparent via-amber to-transparent origin-center"
-        />
+        >
+          <span className="heading-display text-3xl text-bone">LP</span>
+        </motion.div>
+
+        {/* Links */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="flex flex-wrap gap-x-8 gap-y-2 md:justify-center"
+        >
+          {links.map((link) => (
+            <a
+              key={link.label}
+              href={link.url}
+              target={link.url.startsWith('http') ? '_blank' : undefined}
+              rel={link.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className="label-mono text-smoke hover:text-amber transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
+        </motion.div>
+
+        {/* Copyright */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="md:text-right"
+        >
+          <p className="label-mono text-ash">
+            &copy; {currentYear} Luca Pirro
+          </p>
+        </motion.div>
       </div>
+
+      {/* Decorative bottom element */}
+      <motion.div
+        initial={{ scaleX: 0 }}
+        whileInView={{ scaleX: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        className="mt-16 h-px bg-linear-to-r from-transparent via-amber to-transparent origin-center"
+      />
     </footer>
   );
 }

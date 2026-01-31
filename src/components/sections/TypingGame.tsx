@@ -59,41 +59,31 @@ export function TypingGame() {
   const isNewHighScore = finishedGameResult?.isNewHighScore ?? false;
 
   return (
-    <section id="typing-game" className="py-32 relative bg-void">
-      {/* Scanline overlay */}
-      <div className="absolute inset-0 pointer-events-none opacity-30">
-        <div
-          className="w-full h-full"
-          style={{
-            backgroundImage:
-              'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(224, 122, 45, 0.03) 2px, rgba(224, 122, 45, 0.03) 4px)',
-          }}
-        />
-      </div>
+    <section id="typing-game" className="py-20 relative">
 
-      <div className="section-container relative">
+      <div className="relative">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="mb-16"
+          className="mb-12"
         >
           <div className="flex items-center gap-6 mb-6">
             <span className="label-mono text-amber">003</span>
             <span className="flex-1 h-px bg-slate" />
           </div>
-          <h2 className="heading-display text-4xl sm:text-5xl text-bone mb-4">
+          <h2 className="heading-display text-3xl sm:text-4xl text-bone mb-4">
             Terminal
           </h2>
-          <p className="text-fog max-w-xl">
+          <p className="text-fog text-sm">
             Test your typing speed. Developer vocabulary. No mistakes allowed.
           </p>
         </motion.div>
 
         {/* Terminal container */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -307,9 +297,6 @@ export function TypingGame() {
           </motion.div>
         </div>
       </div>
-
-      {/* Bottom rule */}
-      <div className="absolute bottom-0 left-0 right-0 editorial-rule" />
     </section>
   );
 }
