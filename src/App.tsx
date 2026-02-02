@@ -1,5 +1,5 @@
 import { Sidebar, Footer } from './components/layout';
-import { About, Projects, TypingGame, Skills, Experience } from './components/sections';
+import { About, Projects, TypingGame, ScratchGame, Skills, Experience } from './components/sections';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <About />
           <Projects />
           <TypingGame />
+          <ScratchGame />
           <Skills />
           <Experience />
           <Footer />
