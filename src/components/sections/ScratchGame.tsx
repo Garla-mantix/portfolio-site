@@ -33,7 +33,7 @@ export function ScratchGame() {
         >
           <div className="bg-charcoal border border-slate overflow-hidden p-4">
             <iframe
-              src="https://scratch.mit.edu/projects/1274079719/embed"
+              src="https://scratch.mit.edu/projects/1274769024/embed"
               allowTransparency={true}
               width="485"
               height="402"
