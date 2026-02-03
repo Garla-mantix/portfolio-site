@@ -16,8 +16,11 @@ export const projects: Project[] = [
   },
   {
     id: '3',
-    title: 'CS50 Projects',
-    description: 'Collection of projects completed during Harvard\'s CS50 course, covering fundamentals of computer science and programming.',
-    techStack: ['C', 'Python', 'SQL', 'JavaScript'],
+    title: 'Dog Memory Game',
+    description: 'A memory card matching game with dog images, built as a group project for my Frontend Development course in Spring 2025. Features three difficulty levels, timed challenges, and card flip animations.',
+    techStack: ['React', 'Vite', 'Tailwind', 'Dog CEO API'],
+    githubUrl: 'https://github.com/Garla-mantix/dog-memory',
+    liveUrl: 'https://dog-memory.vercel.app/',
+    imageUrl: '/dog-memory.png',
   },
 ];
