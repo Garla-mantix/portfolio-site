@@ -16,7 +16,7 @@ export function About() {
           <span className="flex-1 h-px bg-slate" />
         </div>
         <h2 className="heading-display text-3xl sm:text-4xl text-bone mb-6">
-          About
+          About me
         </h2>
       </motion.div>
 
@@ -29,20 +29,22 @@ export function About() {
         className="space-y-5"
       >
         <p className="text-fog text-base leading-relaxed">
-          I'm a developer currently studying .NET Software Development at Newton
-          Yrkeshögskola in Sweden. My focus is building robust backend systems
-          with C# and .NET, while also creating intuitive web interfaces with
-          modern JavaScript frameworks.
+          Computers have always been a hobby of mine, but when it came to choosing a
+          career I looked elsewhere - until last year. 
         </p>
         <p className="text-fog text-base leading-relaxed">
-          I'm actively looking for an internship (LIA) in 2026 where I can apply
-          my skills and continue growing as a developer. I'm particularly interested
-          in full-stack development, clean architecture, and projects that make
-          a real impact.
+          I started off by familiarizing myself with computer science fundamentals
+          through Harvard University's course CS50, and quickly got hooked on the art of 
+          problem solving and systematic thinking.
         </p>
         <p className="text-fog text-base leading-relaxed">
-          When I'm not coding, you'll find me exploring new technologies,
-          contributing to open source, or tinkering with side projects.
+          Since then, I've completed a 5-month, full-time frontend development course, which
+          solidified my decision to dive head-first into the world of software development.
+          But it also sparked my curiosity for backend systems and the workings behind the scenes.
+        </p>
+        <p className="text-fog text-base leading-relaxed">
+          As of now I am pursuing a 2-year .NET Software Development program, where I try to
+          wrap my head around clean architecture, full-stack development, and all things C#.
         </p>
       </motion.div>
     </section>

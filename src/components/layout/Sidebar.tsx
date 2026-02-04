@@ -38,11 +38,11 @@ export function Sidebar() {
             Luca Pirro
           </h1>
           <p className="text-xl text-fog mb-4">
-            .NET & Web Developer
+            .NET Software & Web Developer
           </p>
           <p className="text-smoke text-sm lg:max-w-xs leading-relaxed">
             Currently studying .NET Software Development at Newton Yrkeshögskola.
-            Looking for internship (LIA) 2026.
+            Looking for internship (LIA) 2026. Based in Stockholm.
           </p>
         </motion.div>
 
