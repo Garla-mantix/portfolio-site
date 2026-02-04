@@ -10,7 +10,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'language' | 'framework' | 'tool' | 'database' | 'other';
+  category: 'language' | 'framework' | 'utility';
   color: string;
   icon: React.ReactNode;
 }

@@ -32,17 +32,17 @@ export function ScratchGame() {
           className="relative max-w-3xl"
         >
           <div className="bg-charcoal border border-slate overflow-hidden p-4">
-            <iframe
-              src="https://scratch.mit.edu/projects/1274769024/embed"
-              allowTransparency={true}
-              width="485"
-              height="402"
-              frameBorder="0"
-              scrolling="no"
-              allowFullScreen
-              className="mx-auto block"
-              title="Scratch Game"
-            />
+            <div className="relative w-full" style={{ aspectRatio: '485 / 402' }}>
+              <iframe
+                src="https://scratch.mit.edu/projects/1274769024/embed"
+                allowTransparency={true}
+                frameBorder="0"
+                scrolling="no"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                title="Scratch Game"
+              />
+            </div>
           </div>
 
           {/* Decorative elements */}

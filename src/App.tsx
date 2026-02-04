@@ -13,10 +13,10 @@ function App() {
         {/* Right content - 50% on desktop, larger right margin */}
         <main className="lg:w-1/2 px-6 sm:px-8 lg:pl-0 lg:pr-16 xl:pr-32 2xl:pr-48">
           <About />
-          <Projects />
+          <Skills />
           <TypingGame />
           <ScratchGame />
-          <Skills />
+          <Projects />
           <Experience />
           <Footer />
         </main>
