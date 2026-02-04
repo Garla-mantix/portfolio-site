@@ -3,10 +3,10 @@ import { useActiveSection } from '../../hooks/useActiveSection';
 
 const navItems = [
   { label: 'About', href: '#about', id: 'about' },
-  { label: 'Work', href: '#projects', id: 'projects' },
+  { label: 'Stack', href: '#skills', id: 'skills' },
   { label: 'Terminal', href: '#typing-game', id: 'typing-game' },
   { label: 'Glob', href: '#scratch-game', id: 'scratch-game' },
-  { label: 'Stack', href: '#skills', id: 'skills' },
+  { label: 'Work', href: '#projects', id: 'projects' },
   { label: 'Journey', href: '#experience', id: 'experience' },
 ];
 
