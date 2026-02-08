@@ -46,6 +46,10 @@ export function About() {
           As of now I am pursuing a 2-year .NET Software Development program, where I try to
           wrap my head around clean architecture, full-stack development, and all things C#.
         </p>
+           <p className="text-fog text-base leading-relaxed">
+          Enjoy coding with Claude Code - but I love problem solving, communicating with humans and 
+          learning about architectural design decisions.  
+        </p>
       </motion.div>
     </section>
   );
