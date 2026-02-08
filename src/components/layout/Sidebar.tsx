@@ -132,7 +132,7 @@ export function Sidebar() {
           </svg>
         </a>
         <a
-          href="/cv.pdf"
+          href="/CV Luca Pirro.pdf"
           download="Luca Pirro CV.pdf"
           className="w-10 h-10 flex items-center justify-center text-smoke hover:text-amber transition-colors duration-300 border border-slate hover:border-amber"
           aria-label="Download CV"
