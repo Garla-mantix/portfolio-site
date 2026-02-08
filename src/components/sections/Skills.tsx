@@ -57,16 +57,25 @@ export function Skills() {
                     scale: 1.02,
                     borderColor: 'rgba(138, 173, 244, 0.3)',
                   }}
-                  className="group flex items-center gap-3 px-3.5 py-3 rounded-xl bg-charcoal/80 border border-graphite/60 cursor-default transition-colors duration-200"
+                  transition={{
+                    scale: { duration: 0.08 },
+                    borderColor: { duration: 0.08, ease: 'linear' }
+                  }}
+                  className="group flex items-center gap-3 px-3.5 py-3 rounded-xl bg-charcoal/80 border border-graphite/60 cursor-default"
                 >
                   {/* Icon container */}
                   <div
-                    className="flex items-center justify-center w-10 h-10 rounded-lg shrink-0 transition-transform duration-200 group-hover:scale-105"
-                    style={{ backgroundColor: `${skill.color}18` }}
+                    className="flex items-center justify-center w-10 h-10 rounded-lg shrink-0 transition-transform duration-75 group-hover:scale-105"
+                    style={{ backgroundColor: `${skill.color}0E` }}
                   >
                     <span
                       className="flex items-center justify-center w-5 h-5"
-                      style={{ color: skill.color }}
+                      style={{
+                        color: skill.color,
+                        filter: skill.name === 'ASP.NET Core' || skill.name === 'Entity Framework'
+                          ? 'brightness(1.5)'
+                          : 'none'
+                      }}
                     >
                       {skill.icon}
                     </span>
