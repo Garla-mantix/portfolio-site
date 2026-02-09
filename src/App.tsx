@@ -14,9 +14,9 @@ function App() {
         <main className="lg:w-1/2 px-6 sm:px-8 lg:pl-0 lg:pr-16 xl:pr-32 2xl:pr-48">
           <About />
           <Skills />
+          <Projects />
           <TypingGame />
           <ScratchGame />
-          <Projects />
           <Experience />
         </main>
       </div>
