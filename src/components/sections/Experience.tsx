@@ -13,7 +13,7 @@ export function Experience() {
           className="mb-12"
         >
           <div className="flex items-center gap-6 mb-6">
-            <span className="label-mono text-amber">005</span>
+            <span className="label-mono text-amber">006</span>
             <span className="flex-1 h-px bg-slate" />
           </div>
           <h2 className="heading-display text-3xl sm:text-4xl text-bone mb-4">
@@ -85,6 +85,15 @@ export function Experience() {
             ))}
           </div>
         </div>
+
+        {/* Glowing bottom line */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+          className="mt-16 h-px bg-linear-to-r from-transparent via-amber to-transparent origin-center"
+        />
     </section>
   );
 }
