@@ -38,7 +38,7 @@ export function Sidebar() {
             Luca Pirro
           </h1>
           <p className="text-xl text-fog mb-4">
-            .NET Software & Web Developer
+            Fullstack Developer
           </p>
           <p className="text-smoke text-sm lg:max-w-xs leading-relaxed">
             Currently studying .NET Software Development at Newton Yrkeshögskola.

@@ -1,4 +1,4 @@
-import { Sidebar, Footer } from './components/layout';
+import { Sidebar } from './components/layout';
 import { About, Projects, TypingGame, ScratchGame, Skills, Experience } from './components/sections';
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
           <ScratchGame />
           <Projects />
           <Experience />
-          <Footer />
         </main>
       </div>
     </div>
