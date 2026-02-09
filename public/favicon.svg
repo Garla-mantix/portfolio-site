@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#24273a"/>
+  <text
+    x="64"
+    y="82"
+    font-family="Syne, sans-serif"
+    font-size="56"
+    font-weight="700"
+    fill="#8aadf4"
+    text-anchor="middle"
+    letter-spacing="-0.03em"
+  >LP</text>
+</svg>
