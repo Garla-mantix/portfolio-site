@@ -52,14 +52,15 @@ export function Skills() {
                   initial={{ opacity: 0, y: 12 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.04, duration: 0.35 }}
+                  transition={{
+                    delay: index * 0.04,
+                    duration: 0.35,
+                    scale: { duration: 0.08 },
+                    borderColor: { duration: 0.08, ease: 'linear' },
+                  }}
                   whileHover={{
                     scale: 1.02,
                     borderColor: 'rgba(138, 173, 244, 0.3)',
-                  }}
-                  transition={{
-                    scale: { duration: 0.08 },
-                    borderColor: { duration: 0.08, ease: 'linear' }
                   }}
                   className="group flex items-center gap-3 px-3.5 py-3 rounded-xl bg-charcoal/80 border border-graphite/60 cursor-default"
                 >
