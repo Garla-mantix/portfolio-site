@@ -3,10 +3,12 @@ import type { Project } from '../types';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Portfolio Website',
-    description: 'Personal portfolio built with React, TypeScript, and Tailwind CSS. Features smooth animations with Framer Motion and a typing game.',
-    techStack: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
-    githubUrl: 'https://github.com/lumacone',
+    title: 'Bankster',
+    description: 'A personal finance management web application built with Blazor and C#. Allows users to create accounts, make transactions, and view their financial data in a user-friendly interface. Deployed on Azure.',
+    techStack: ['C#', 'Blazor', 'Azure', 'HTML', 'CSS',],
+    githubUrl: 'https://github.com/Garla-mantix/bankster',
+    liveUrl: 'https://bankster-fnhvfzhub3bpcpe9.swedencentral-01.azurewebsites.net/',
+    imageUrl: '/bankster.png',
   },
   {
     id: '2',
