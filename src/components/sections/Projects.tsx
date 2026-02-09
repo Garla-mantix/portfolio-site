@@ -13,15 +13,14 @@ export function Projects() {
           className="mb-12"
         >
           <div className="flex items-center gap-6 mb-6">
-            <span className="label-mono text-amber">005</span>
+            <span className="label-mono text-amber">003</span>
             <span className="flex-1 h-px bg-slate" />
           </div>
           <h2 className="heading-display text-3xl sm:text-4xl text-bone mb-4">
-            Selected Work
+            Projects
           </h2>
           <p className="text-fog text-sm">
-            A curated collection of projects that showcase my approach to
-            problem-solving and attention to craft.
+            Some projects I've worked on in the past. 
           </p>
         </motion.div>
 

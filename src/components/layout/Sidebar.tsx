@@ -4,9 +4,9 @@ import { useActiveSection } from '../../hooks/useActiveSection';
 const navItems = [
   { label: 'About', href: '#about', id: 'about' },
   { label: 'Stack', href: '#skills', id: 'skills' },
+  { label: 'Projects', href: '#projects', id: 'projects' },
   { label: 'Terminal', href: '#typing-game', id: 'typing-game' },
   { label: 'Glob', href: '#scratch-game', id: 'scratch-game' },
-  { label: 'Work', href: '#projects', id: 'projects' },
   { label: 'Journey', href: '#experience', id: 'experience' },
 ];
 
