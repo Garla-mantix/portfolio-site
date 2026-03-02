@@ -35,9 +35,14 @@ export function Projects() {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
               {/* Project visual */}
-              <div className="w-full">
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full"
+              >
                 <motion.div
-                  className="relative aspect-[16/10] bg-charcoal overflow-hidden group"
+                  className="relative aspect-[16/10] bg-charcoal overflow-hidden group cursor-pointer"
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.4 }}
                 >
@@ -64,7 +69,7 @@ export function Projects() {
                   {/* Corner accent */}
                   <div className="absolute top-0 right-0 w-12 h-12 border-t border-r border-amber/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </motion.div>
-              </div>
+              </a>
 
               {/* Project info */}
               <div className="space-y-4 mt-4">
@@ -72,9 +77,16 @@ export function Projects() {
                   <span className="label-mono text-amber mb-1 block text-xs">
                     Project {String(index + 1).padStart(2, '0')}
                   </span>
-                  <h3 className="heading-display text-xl sm:text-2xl text-bone mb-2">
-                    {project.title}
-                  </h3>
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-amber transition-colors duration-300"
+                  >
+                    <h3 className="heading-display text-xl sm:text-2xl text-bone mb-2">
+                      {project.title}
+                    </h3>
+                  </a>
                   <p className="text-fog text-sm leading-relaxed">{project.description}</p>
                 </div>
 
