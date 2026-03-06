@@ -23,7 +23,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'Dog Memory Game',
     description: 'A memory card matching game with dog images, built as a group project for my Frontend Development course in the Spring of 2025. Features three timed difficulty levels.',
-    techStack: ['React', 'Vite', 'Tailwind', 'Dog CEO API', 'Git/GitHub'],
+    techStack: ['React', 'Vite', 'Tailwind', 'External API', 'Git/GitHub'],
     githubUrl: 'https://github.com/Garla-mantix/dog-memory',
     liveUrl: 'https://dog-memory.vercel.app/',
     imageUrl: '/dog-memory.png',
