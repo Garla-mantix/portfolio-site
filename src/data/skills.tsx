@@ -14,9 +14,12 @@ import {
   SiSqlite,
   SiLinux,
   SiDocker,
+  SiPostman,
+  SiSwagger,
+  SiPostgresql,
 } from 'react-icons/si';
 import { TbBrandCSharp } from 'react-icons/tb';
-import { VscTerminalBash } from 'react-icons/vsc';
+import { VscTerminalBash, VscBeaker } from 'react-icons/vsc';
 
 export const skills: Skill[] = [
   {
@@ -120,6 +123,30 @@ export const skills: Skill[] = [
     category: 'utility',
     color: '#f59e0b',
     icon: <VscTerminalBash className="w-full h-full" />,
+  },
+  {
+    name: 'Postman',
+    category: 'utility',
+    color: '#ff6c37',
+    icon: <SiPostman className="w-full h-full" />,
+  },
+  {
+    name: 'Swagger',
+    category: 'utility',
+    color: '#85ea2d',
+    icon: <SiSwagger className="w-full h-full" />,
+  },
+  {
+    name: 'PostgreSQL',
+    category: 'utility',
+    color: '#4169e1',
+    icon: <SiPostgresql className="w-full h-full" />,
+  },
+  {
+    name: 'MSTest',
+    category: 'utility',
+    color: '#9b4dca',
+    icon: <VscBeaker className="w-full h-full" />,
   },
 ];
 
